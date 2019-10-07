@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="name">姓名：</string>
+    <string name="phone">电话：</string>
+    <string name="Address">家庭地址：</string>
+    <string name="save">保存</string>
+    <string name="address">请输入家庭住址</string>
+    <string name="Back">返回</string>
+</resources>

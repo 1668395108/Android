@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="碎片左按钮"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Champions are made not born 冠军不是生者为王 Hard work and dedication no scorn 努力与勤奋，没有蔑视 You wanna make it then get your game on 游戏开启，成功是你所想 Get your grind on 磨砺自身 You gotta switch on 打开你的思想 You want it good then you better get it done 完成目标没有半途而废 **** your lazy attitude always sitting having fun No pain no gain 一分耕耘一分收获 Yh that's what I'm saying 这便是我所言"
+        android:textSize="18dp"/>
+
+</LinearLayout>

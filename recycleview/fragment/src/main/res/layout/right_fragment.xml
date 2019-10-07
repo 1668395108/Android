@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="碎片右按钮"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 有时候你会觉得 自己到达了一个瓶颈 你会想要放弃 但当你要放弃的时候 你总会听到一个声音 那是你的心跳 它在告诉你 它在为了你战斗 而你也会为了它 继续前行 Champions are made not born 冠军不是生者为王 Hard work and dedication no scorn 努力与勤奋，没有蔑视 You wanna make it then get your game on 游戏开启，成功是你所想 Get your grind on 磨砺自身 You gotta switch on 打开你的思想 You want it good then you better get it done 完成目标没有半途而废 **** your lazy attitude always sitting having fun No pain no gain 一分耕耘一分收获 Yh that's what I'm saying 这便是我所言 I'm addicted to work and I can't abstain 戒不掉的是我对工作的沉迷 When I make it it will be my sweat my blood and my pain 痛苦与血汗相融，铸就了我的成功 All these lazy dudes they driving me insane 懒惰者们只会使我发狂 Yh Money ain't success it comes with it 金钱随之而来，成功并非它所造 Working hard for a future I know I can predict 为了未来而奋斗，一切尽在掌控之中 We work hard to bring you flows that you can't resist 我们的旋律你们无法抵抗 Topping charts along the way check the statistics You running out of time yh I let you check my wrist 时间不够，我让你检查我的手腕 Watch... 看好了 this is how we do it.. 这是我们的方式 From dusk to dawn"
+            android:textSize="14sp"/>
+
+
+
+</LinearLayout>

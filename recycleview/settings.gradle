@@ -1,0 +1,2 @@
+include ':app', ':recyclerview', ':fragment', ':intent', ':wechat', ':menu', ':expandablistview', ':login', ':tabhost', ':score', ':software_testing', ':demo', ':calculationtest'
+rootProject.name='recycleview'

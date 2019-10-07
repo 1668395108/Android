@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">软件测试</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="condition">C</string>
+    <string name="d">D</string>
+    <string name="jt"><![CDATA[->]]></string>
+    <string name="At"><![CDATA[T1:A>1]]></string>
+    <string name="inputSize">25sp</string>
+    <string name="lujing">路径</string>
+    <string name="textB"><![CDATA[T2:B<0]]></string>
+</resources>

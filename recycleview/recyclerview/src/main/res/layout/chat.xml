@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="博学宏德自强不息"
+        android:textSize="38dp"
+        android:gravity="center"
+        android:textColor="#E90F0F"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/zygxy1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#9C27B0"
+        android:textSize="20dp"
+        android:text="
+有时候你会觉得 自己到达了一个瓶颈
+你会想要放弃 但当你要放弃的时候
+你总会听到一个声音 那是你的心跳
+它在告诉你 它在为了你战斗
+而你也会为了它 继续前行" />
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#03A9F4"
+        android:text="我的联系人"
+        android:background="#FFEB3B"/>
+</LinearLayout>

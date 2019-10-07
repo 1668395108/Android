@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Menu</string>
+    <string name="textview">这是设置界面</string>
+    <string name="button">按钮</string>
+    <string name="ret">这是关于界面</string>
+    <string name="button_audio">播放音频</string>
+    <string name="textview_audio">播放音频</string>
+    <string name="but_bf">播放</string>
+    <string name="but">暂停</string>
+    <string name="but_tz">停止</string>
+    <string name="but_video">播放视频</string>
+    <string name="viewmodel">ViewModelSHP</string>
+    <string name="textView" />
+    <string name="button_m">-</string>
+    <string name="button_pp">+</string>
+    <string name="data_key">DATA_KEY</string>
+    <string name="shp_name">SHP_NAME</string>
+</resources>

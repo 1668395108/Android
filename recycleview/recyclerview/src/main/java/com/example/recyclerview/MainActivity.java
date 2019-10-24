@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
 import android.os.Bundle;
+import android.widget.ListView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,16 +18,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initweixin();
-       // WeixinAdapter adapter=new WeixinAdapter(MainActivity.this,R.layout.weixin,weixinlist);
-        RecyclerView recyclerView=findViewById(R.id.recycle1);
-        LinearLayoutManager layoutManager=new LinearLayoutManager(this);  //纵向排列
-        layoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);  //横向排列
+//       // WeixinAdapter adapter=new WeixinAdapter(MainActivity.this,R.layout.weixin,weixinlist);
+//        RecyclerView recyclerView=findViewById(R.id.recycle1);
+//        LinearLayoutManager layoutManager=new LinearLayoutManager(this);  //纵向排列
+//        layoutManager.setOrientation(LinearLayoutManager.VERTICAL);  //横向排列
+//
+//        //StaggeredGridLayoutManager layoutManager=new StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL); //瀑布流布局
+//        recyclerView.setLayoutManager(layoutManager);
+//        WeixinAdapter adapter=new WeixinAdapter(weixinlist);
+//        recyclerView.setAdapter(adapter);
 
-        //StaggeredGridLayoutManager layoutManager=new StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL); //瀑布流布局
-        recyclerView.setLayoutManager(layoutManager);
-        WeixinAdapter adapter=new WeixinAdapter(weixinlist);
-        recyclerView.setAdapter(adapter);
-
+        WeixinAdapter adapter=new WeixinAdapter(MainActivity.this,R.layout.weixin,weixinlist);
+        ListView listView=findViewById(R.id.recycle1);
+        listView.setAdapter(adapter);
     }
     public  void initweixin() {
         for (int i = 0; i < 3; i++) {
